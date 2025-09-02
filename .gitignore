@@ -1,0 +1,31 @@
+# Next.js build output
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript cache
+.swc/
+
+# Log files
+*.log
+npm-debug.log*
+
+# macOS files
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Optional Next.js build artifacts
+# These are usually ignored but can be uncommented if you need them
+# .next/static/
+# .next/server/
