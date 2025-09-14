@@ -74,7 +74,7 @@ export default function AboutUs() {
   return (
     <div className="space-y-20">
       {/* Services Section */}
-      <section id="services" className="py-12 ">
+      <section id="services" className="py-12 mt-20 ">
         <div className="container mx-auto px-4">
           <p className="text-gray-700 leading-relaxed text-justify mb-10">
             YETI Int’l College was established in 2010 AD and got official

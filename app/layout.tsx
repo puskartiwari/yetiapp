@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
+import { Lexend } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
+const lexend = Lexend({
+  subsets: ["latin"],
+  variable: "--font-lexend",
+});
 
 export const metadata: Metadata = {
   title: "Yeti",
@@ -16,9 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      {/* <body> */}
+      <body className={lexend.className}>
         <Navbar />
-        <main className="relative overflow-hidden">{children}</main>
+        <main className="relative overflow-hidden lexend ">{children}</main>
         <Footer />
       </body>
     </html>

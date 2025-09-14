@@ -14,25 +14,25 @@ const whyUsData: WhyUsItem[] = [
     title: "Choose Excellence",
     description:
       "Our expert faculty, modern facilities, and industry-aligned courses ensure you receive top-tier education that leads to real success.",
-    image: "/assets/images/ui/choose-excellence.png",
+    image: "whyus1.png",
   },
   {
     title: "Your Future Starts Here",
     description:
       "With diverse programs like ABM, BHM, BTTM, BCA, and MBA, we help you turn your passion into a rewarding profession.",
-    image: "/assets/images/ui/start-your-journey.png",
+    image: "whyus3.png",
   },
   {
     title: "Start Strong with Us",
     description:
       "Begin your journey with programs that focus on skills, innovation, and global opportunities from day one.",
-    image: "/assets/images/ui/be-strong.png",
+    image: "whyus2.png",
   },
   {
     title: "The Right Choice",
     description:
       "We prepare you for today’s competitive world with a perfect blend of theory, practice, and personality development.",
-    image: "/assets/images/ui/right-choice.png",
+    image: "whyus4.png",
   },
 ];
 
@@ -40,7 +40,7 @@ const WhyUs = () => {
   return (
     <section
       id="services"
-      className="services section py-16 bg-cover bg-center"
+      className="services section py-16 bg-cover bg-center mt-20"
       style={{ backgroundImage: "url('/assets/images/ui/bg.png')" }}>
       {/* Section Title */}
       <div className="container mx-auto text-center mb-12">
@@ -73,7 +73,7 @@ const WhyUs = () => {
         {/* Center Image */}
         <div className="hidden md:flex justify-center">
           <Image
-            src="/assets/images/ui/why-us.png"
+            src="whyuscenter.png"
             alt="Why Us"
             width={250}
             height={250}

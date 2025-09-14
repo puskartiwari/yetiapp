@@ -40,43 +40,81 @@ export const NAV_LINKS = [
       },
     ],
   },
+  // {
+  //   key: "courses",
+  //   label: "Courses",
+  //   children: [
+  //     {
+  //       href: "/faculty/mba",
+  //       key: "mba",
+  //       label: "MBA-Master in Business Administration",
+  //     },
+  //     {
+  //       href: "/faculty/bhm",
+  //       key: "bhm",
+  //       label: "BHM-Bachelor in Hotel Management",
+  //     },
+  //     {
+  //       href: "/faculty/babm",
+  //       key: "babm",
+  //       label: "BABM-Bachelor in Airlines Business Management",
+  //     },
+  //     {
+  //       href: "/faculty/bamm",
+  //       key: "bamm",
+  //       label: "BAMM-Bachelor in MICE (Event) Management",
+  //     },
+  //     {
+  //       href: "/faculty/bttm",
+  //       key: "bttm",
+  //       label: "Bachelor in Tourism & MICE Management",
+  //     },
+  //     {
+  //       href: "/faculty/bca",
+  //       key: "bca",
+  //       label: "BCA-Bachelor in Computer Application",
+  //     },
+  //     // { href: "/faculty/all", key: "all", label: "All" },
+  //   ],
+  // },
+
   {
     key: "courses",
     label: "Courses",
     children: [
       {
-        href: "/faculty/mba",
+        href: "/courses/mba",
         key: "mba",
-        label: "MBA-Master in Business Administration",
+        label: "MBA - Master in Business Administration",
       },
       {
-        href: "/faculty/bhm",
+        href: "/courses/bhm",
         key: "bhm",
-        label: "BHM-Bachelor in Hotel Management",
+        label: "BHM - Bachelor in Hotel Management",
       },
       {
-        href: "/faculty/babm",
+        href: "/courses/babm",
         key: "babm",
-        label: "BABM-Bachelor in Airlines Business Management",
+        label: "BABM - Bachelor in Airlines Business Management",
       },
       {
-        href: "/faculty/bamm",
+        href: "/courses/bamm",
         key: "bamm",
-        label: "BAMM-Bachelor in MICE (Event) Management",
+        label: "BAMM - Bachelor in MICE (Event) Management",
       },
       {
-        href: "/faculty/bttm",
+        href: "/courses/bttm",
         key: "bttm",
-        label: "Bachelor in Tourism & MICE Management",
+        label: "BTTM - Bachelor in Tourism & MICE Management",
       },
       {
-        href: "/faculty/bca",
+        href: "/courses/bca",
         key: "bca",
-        label: "BCA-Bachelor in Computer Application",
+        label: "BCA - Bachelor in Computer Application",
       },
-      // { href: "/faculty/all", key: "all", label: "All" },
     ],
   },
+
   {
     key: "media",
     label: "Media",
@@ -111,14 +149,16 @@ export const PEOPLE_URL = [
   "/person-4.png",
 ];
 
+export const SPU_URL = ["/spu.png", "/spu2.png", "/spu3.png"];
+
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Real maps can be offline",
-    icon: "/map.svg",
+    title: "Chandan Kushwaha",
+    icon: "/student2.jpg",
     variant: "green",
     description:
-      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+      "For me, choosing Yeti turned out to be the best decision. Yeti International College offers an outstanding blend of practical and theoretical knowledge. The faculty is highly supportive, maintainable, and the resources provided are top-notch. It's truly a place where students can thrive and achieve their academic goals.",
   },
   {
     title: "Set an adventure schedule",
@@ -142,31 +182,62 @@ export const FEATURES = [
       "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
   },
 ];
+// Testimonials data
+export const Testimonials = [
+  {
+    id: 1,
+    title: "Chandan Kushwaha",
+    batch: "2020 BCA [Batch]",
+    icon: "student2.jpg",
+    variant: "green",
+    stars: 5,
+    description:
+      "For me, choosing Yeti turned out to be the best decision. Yeti International College offers an outstanding blend of practical and theoretical knowledge. The faculty is highly supportive, maintainable, and the resources provided are top-notch. It's truly a place where students can thrive and achieve their academic goals.",
+  },
+  {
+    id: 2,
+    title: "Dhiraj Shah",
+    batch: "2020 BCA [Batch]",
+    icon: "dhiraj.jpg",
+    stars: 5,
+    description:
+      "Words convey our feelings and a “THANK YOU” conveys our gratitude and appreciation. So, I must thank YETI Int’l College (Former ICHM Lalitpur College) for striding the dream in all of us and supporting a lot in fulfilling it. YETI Int’l College supports developing a strong feeling of self-confidence among the students to win in this competitive world.",
+  },
+  {
+    id: 3,
+    title: "Rupesh Kushwaha",
+    batch: "2021 BCA [Batch]",
+    icon: "student1.jpg",
+    stars: 5,
+    description:
+      "Yeti international college is the best college in Kathmandu. This College has good infrastructure and monument and vast college environment and equipment are good in condition and libraries are plenty of books and sports centers with all sports equipment and classrooms with good classrooms and infrastructure.",
+  },
+];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "Learn More",
+    title: "Outstanding Courses",
     links: [
-      "About Hilink",
-      "Press Releases",
-      "Environment",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
+      "MBA - Master in Business Administration",
+      "BHM - Bachelor in Hotel Management",
+      "BABM - Bachelor in Airlines Business Management",
+      "BAMM - Bachelor in MICE (Event) Management",
+      "BTTM - Bachelor in Tourism & MICE Management",
+      "BCA - Bachelor in Computer Application",
     ],
   },
   {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    title: "Our Affiliation ",
+    links: ["Tribhuwan University", "Sripatum University"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Admin Office", value: "+977-14792063" },
+    { label: "Email Office", value: "nfo@yeticollege.edu.np" },
   ],
 };
 

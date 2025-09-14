@@ -45,7 +45,7 @@ export default function FaqSection() {
   };
 
   return (
-    <section id="faq" className="py-16 bg-gray-50">
+    <section id="faq" className="p-16 bg-slate-300 mb-10">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-12 gap-8">
           {/* Left Section */}

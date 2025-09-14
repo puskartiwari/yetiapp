@@ -12,7 +12,7 @@ const PrincipalMessage = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
       }}
-      className="services section py-12">
+      className="services section py-12 mt-20">
       <div className="container mx-auto px-4">
         {principalData.map((item, index) => (
           <div
