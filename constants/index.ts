@@ -137,7 +137,7 @@ export const NAV_LINKS = [
   //   ],
   // },
 
-  { href: "/", key: "contact", label: "Contact" },
+  { href: "/contact", key: "contact", label: "Contact" },
   // { href: "/", key: "blogs", label: "Blogs" },
 ];
 
