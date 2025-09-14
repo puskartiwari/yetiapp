@@ -79,7 +79,7 @@ export default function MessageCeo() {
             </div>
 
             {/* Right: Image */}
-            {/* <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center">
               {msg.image ? (
                 <Image
                   src={msg.image}
@@ -88,10 +88,12 @@ export default function MessageCeo() {
                   height={400}
                   className="rounded-xl shadow-md object-cover"
                 />
-              ) : ( */}
-            <h1 className="text-xl font-bold text-gray-500">Coming soon...</h1>
-            {/* //   )}
-            // </div> */}
+              ) : (
+                <h1 className="text-xl font-bold text-gray-500">
+                  Coming soon...
+                </h1>
+              )}
+            </div>
           </div>
         ))}
       </div>

@@ -241,13 +241,38 @@ export const FOOTER_CONTACT_INFO = {
   ],
 };
 
+// export const SOCIALS = {
+//   title: "Social",
+//   links: [
+//     "/facebook.svg",
+//     "/instagram.svg",
+//     "/twitter.svg",
+//     "/youtube.svg",
+//     "/wordpress.svg",
+//   ],
+// };
 export const SOCIALS = {
   title: "Social",
   links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
+    {
+      icon: "/facebook.svg",
+      url: "https://www.facebook.com/YETICollege",
+    },
+    {
+      icon: "/instagram.svg",
+      url: "https://www.instagram.com/yetiintlcollege/",
+    },
+    // {
+    //   icon: "/twitter.svg",
+    //   url: "https://twitter.com/yourpage",
+    // },
+    {
+      icon: "/youtube.svg",
+      url: "https://www.youtube.com/@YETIInternationalCollege",
+    },
+    // {
+    //   icon: "/wordpress.svg",
+    //   url: "https://yourblog.wordpress.com",
+    // },
   ],
 };

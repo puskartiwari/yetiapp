@@ -188,13 +188,35 @@ const Footer = () => {
               </FooterColumn>
             </div>
 
-            <div className="flex flex-col gap-5">
+            {/* <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
                   {SOCIALS.links.map((link) => (
                     <Link href="/" key={link}>
                       <Image src={link} alt="logo" width={24} height={24} />
                     </Link>
+                  ))}
+                </ul>
+              </FooterColumn>
+            </div> */}
+            <div className="flex flex-col gap-5">
+              <FooterColumn title={SOCIALS.title}>
+                <ul className="regular-14 flex gap-4 text-gray-30">
+                  {SOCIALS.links.map((item, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:scale-110 transition-transform">
+                        <Image
+                          src={item.icon}
+                          alt="social icon"
+                          width={24}
+                          height={24}
+                        />
+                      </Link>
+                    </li>
                   ))}
                 </ul>
               </FooterColumn>
