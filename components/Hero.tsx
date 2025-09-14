@@ -173,7 +173,14 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row mt-10">
-          <Button type="button" title="Get Started" variant="btn_red" />
+          {/* <Button type="button" title="Get Started" variant="btn_red" /> */}
+          <Button
+            type="button"
+            title="Get Started"
+            variant="btn_red"
+            className="px-6 py-3"
+          />
+
           <a
             href="https://www.youtube.com/watch?v=KKVNhm7afvo"
             className="flex items-center justify-center gap-2 rounded-xl border border-gray-200 px-6 py-3 hover:bg-white hover:text-black transition">

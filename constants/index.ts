@@ -115,30 +115,30 @@ export const NAV_LINKS = [
     ],
   },
 
-  {
-    key: "media",
-    label: "Media",
-    children: [
-      {
-        href: "/media/photos",
-        key: "photos",
-        label: "Photos",
-      },
-      {
-        href: "/media/videos",
-        key: "videos",
-        label: "Videos",
-      },
-      {
-        href: "/faculty/events",
-        key: "events",
-        label: "Upcoming Events",
-      },
-    ],
-  },
+  // {
+  //   key: "media",
+  //   label: "Media",
+  //   children: [
+  //     {
+  //       href: "/media/photos",
+  //       key: "photos",
+  //       label: "Photos",
+  //     },
+  //     {
+  //       href: "/media/videos",
+  //       key: "videos",
+  //       label: "Videos",
+  //     },
+  //     {
+  //       href: "/faculty/events",
+  //       key: "events",
+  //       label: "Upcoming Events",
+  //     },
+  //   ],
+  // },
 
   { href: "/", key: "contact", label: "Contact" },
-  { href: "/", key: "blogs", label: "Blogs" },
+  // { href: "/", key: "blogs", label: "Blogs" },
 ];
 
 // CAMP SECTION

@@ -319,10 +319,10 @@ const Navbar = () => {
                       {link.children.map((child) => (
                         <li
                           key={child.key}
-                          className=" rounded-md hover:bg-green-100 transition-colors duration-200">
+                          className=" rounded-md hover:bg-blue-300 transition-colors duration-200">
                           <Link
                             href={child.href}
-                            className="block px-4 py-1 text-sm font-medium text-gray-700 hover:text-green-700">
+                            className="block px-4 py-1 text-sm font-medium text-gray-700 hover:text-gray-90 ">
                             {child.label}
                           </Link>
                         </li>
