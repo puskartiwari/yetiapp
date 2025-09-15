@@ -29,7 +29,7 @@ export default function Spu() {
           ))}
         </div>
       </section>
-      <ContactSection />
+      {/* <ContactSection /> */}
     </>
   );
 }

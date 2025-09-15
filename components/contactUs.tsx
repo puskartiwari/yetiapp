@@ -31,7 +31,7 @@ export default function ContactSection() {
   ];
 
   return (
-    <section id="contact" className="py-12">
+    <section id="contact" className="p-12 my-20 ">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-8 text-center">Contact</h2>
         <div className="grid md:grid-cols-2 gap-10">
