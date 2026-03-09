@@ -256,7 +256,12 @@ const Navbar = () => {
       <div className="flex justify-between items-center max-w-[1440px] mx-auto px-6">
         {/* Logo */}
         <Link href="/">
-          <Image src="/logo.png" alt="logo" width={74} height={29} />
+          <Image
+            src="/logotransparent.jpeg"
+            alt="logo"
+            width={74}
+            height={29}
+          />
         </Link>
 
         {/* Desktop Nav */}
@@ -344,7 +349,7 @@ const Navbar = () => {
         {/* Right Section */}
         <div className="hidden lg:flex gap-8 items-center">
           <Link href="/">
-            <Image src="/spu-logo.png" alt="logo" width={74} height={29} />
+            <Image src="/turight.png" alt="logo" width={74} height={55} />
           </Link>
         </div>
 

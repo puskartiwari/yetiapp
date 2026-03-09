@@ -118,37 +118,6 @@ const CampSite = ({
   peopleJoined,
 }: CampProps) => {
   return (
-    // <div
-    //   className={` w-full h-full min-w-[300px] ${backgroundImage} bg-cover bg-no-repeat rounded-3xl `}>
-    //   <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
-    //     <div className="flex items-center gap-4">
-    //       <div className="rounded-full bg-blue-500 p-4">
-    //         <Image src="/folded-map.svg" alt="map" width={28} height={28} />
-    //       </div>
-    //       <div className="flex flex-col gap-1">
-    //         <h4 className="bold-18 text-white">{title}</h4>
-    //         <p className="regular-14 text-white">{subtitle}</p>
-    //       </div>
-    //     </div>
-
-    //     <div className="flex items-center gap-6">
-    //       <span className="flex -space-x-4 overflow-hidden">
-    //         {PEOPLE_URL.map((url) => (
-    //           <Image
-    //             className="inline-block h-10 w-10 rounded-full"
-    //             src={url}
-    //             key={url}
-    //             alt="person"
-    //             width={100}
-    //             height={100}
-    //           />
-    //         ))}
-    //       </span>
-    //       <p className="bold-16 md:bold-20 text-black ">{peopleJoined}</p>
-    //     </div>
-    //   </div>
-    // </div>
-
     <div
       className={`relative w-full h-full min-w-[300px] ${backgroundImage} bg-cover bg-no-repeat rounded-3xl`}>
       {/* Background overlay for opacity */}
@@ -190,7 +159,7 @@ const Camp = () => {
   return (
     <section className="px-20 2xl:max-container relative flex flex-col py-5 lg:mb-10 lg:py-7 xl:mb-20">
       {/* <div>Our Courses</div> */}
-      <h1 className="text-3xl font-bold text-center mb-10">Our Courses</h1>
+      <h1 className="text-3xl font-bold text-center mb-10">Research Center</h1>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={24}
@@ -206,7 +175,7 @@ const Camp = () => {
         <SwiperSlide>
           <CampSite
             backgroundImage="bg-bg-img-1"
-            title="MBA-Master in Business Administration"
+            title="Center For Analytical Sciences"
             subtitle="Tribhuvan University"
             peopleJoined="500+ Joined"
           />
@@ -214,7 +183,7 @@ const Camp = () => {
         <SwiperSlide>
           <CampSite
             backgroundImage="bg-bg-img-2"
-            title="BHM-Bachelor in Hotel Management"
+            title="Center For Conservation Biologoy"
             subtitle="Tribhuvan University"
             peopleJoined="50+ Joined"
           />
@@ -223,7 +192,7 @@ const Camp = () => {
         <SwiperSlide>
           <CampSite
             backgroundImage="bg-bg-img-3"
-            title="BABM-Bachelor in Airlines Business Management"
+            title="Center For Water And Atmospheric Research"
             subtitle="Tribhuvan University"
             peopleJoined="500+ Joined"
           />
@@ -231,7 +200,7 @@ const Camp = () => {
         <SwiperSlide>
           <CampSite
             backgroundImage="bg-bg-img-4"
-            title="BAMM-Bachelor in MICE (Event) Management"
+            title="National Young Academy of Nepal "
             subtitle="Tribhuvan University"
             peopleJoined="50+ Joined"
           />
@@ -239,7 +208,7 @@ const Camp = () => {
         <SwiperSlide>
           <CampSite
             backgroundImage="bg-bg-img-5"
-            title="Bachelor in Tourism & MICE Management"
+            title="Organisation of Women Scientist in Nepal"
             subtitle="Tribhuvan University"
             peopleJoined="50+ Joined"
           />
@@ -247,7 +216,7 @@ const Camp = () => {
         <SwiperSlide>
           <CampSite
             backgroundImage="bg-bg-img-6"
-            title="BCA-Bachelor in Computer Application"
+            title="Society for Conservation Biology"
             subtitle="Tribhuvan University"
             peopleJoined="50+ Joined"
           />
@@ -257,15 +226,13 @@ const Camp = () => {
       <div className="flex justify-end z-20 px-4 lg:-mt-60 lg:mr-6">
         <div className="bg-blue-500 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-8 xl:py-10 relative w-full overflow-hidden rounded-3xl">
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-            Exploring the <strong>Top Colleges </strong> and Their Impact on
-            Society
+            Exploring the{" "}
+            <strong>RESEARCH, INNOVATION, DISCOVERY, AND OUTREACH </strong>{" "}
+            through its three active research centers
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-            At Yeti Int'l College, we believe education is the foundation of a
-            successful and fulfilling life. Our college is committed to
-            providing a transformative learning experience that empowers
-            students to excel academically, grow personally, and prepare for a
-            promising future.
+            To provide an intellectual leadership to the society by fostering
+            innovations in science and technology.
           </p>
           {/* <Image
             src="/quote.svg"

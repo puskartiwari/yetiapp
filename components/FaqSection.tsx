@@ -4,36 +4,71 @@ import { useState } from "react";
 import { ChevronRight } from "lucide-react"; // or use Heroicons if you prefer
 
 // FAQ Data
+// const faqData = [
+//   {
+//     id: 1,
+//     question: "What programs and courses does the college offer?",
+//     answer:
+//       "Our college offers undergraduate, postgraduate, and diploma programs across various fields, including arts, science, commerce, engineering, management, and more. Visit the [Programs page] for a complete list.",
+//   },
+//   {
+//     id: 2,
+//     question: "What are the eligibility criteria for admission?",
+//     answer:
+//       "Eligibility criteria vary depending on the program. Generally, undergraduate programs require completion of high school, while postgraduate programs require a bachelor's degree in a relevant field. Check the [Admissions page] for detailed requirements.",
+//   },
+//   {
+//     id: 3,
+//     question: "Does the college offer scholarships or financial aid?",
+//     answer:
+//       "Yes, we provide scholarships based on academic performance, financial need, and other criteria. Learn more about eligibility and application procedures on the [Scholarships page].",
+//   },
+//   {
+//     id: 4,
+//     question: "How can I apply for admission?",
+//     answer:
+//       "You can apply online through our [Admission Portal] or submit a physical application form at the college's admission office. Visit the [Admissions Process page] for step-by-step guidance.",
+//   },
+//   {
+//     id: 5,
+//     question: "What are the campus facilities available?",
+//     answer:
+//       "Our campus includes a library, laboratories, sports facilities, hostels, a cafeteria, and student recreation areas. Explore the [Campus Facilities page] for a virtual tour.",
+//   },
+// ];
 const faqData = [
   {
     id: 1,
-    question: "What programs and courses does the college offer?",
+    question:
+      "What is the primary objective of the Conservation Research Fund?",
     answer:
-      "Our college offers undergraduate, postgraduate, and diploma programs across various fields, including arts, science, commerce, engineering, management, and more. Visit the [Programs page] for a complete list.",
+      "The Conservation Research Fund (CRF) is designed to provide financial catalysts for high-impact studies focusing on biodiversity, ecosystem restoration, and climate resilience. We prioritize projects that offer scalable solutions to urgent environmental challenges.",
   },
   {
     id: 2,
-    question: "What are the eligibility criteria for admission?",
+    question: "How does the Research Mentorship program work?",
     answer:
-      "Eligibility criteria vary depending on the program. Generally, undergraduate programs require completion of high school, while postgraduate programs require a bachelor's degree in a relevant field. Check the [Admissions page] for detailed requirements.",
+      "Our mentorship program pairs emerging conservationists with seasoned scientists and industry experts. Mentors provide technical guidance, assist with field methodology, and help mentees navigate the complexities of publishing in peer-reviewed journals.",
   },
   {
     id: 3,
-    question: "Does the college offer scholarships or financial aid?",
+    question:
+      "Who is eligible to participate in the Conservation Dialogue series?",
     answer:
-      "Yes, we provide scholarships based on academic performance, financial need, and other criteria. Learn more about eligibility and application procedures on the [Scholarships page].",
+      "The Conservation Dialogue is open to researchers, policy makers, and community leaders. These sessions serve as a collaborative platform to discuss field findings, legislative hurdles, and the integration of indigenous knowledge in modern conservation.",
   },
   {
     id: 4,
-    question: "How can I apply for admission?",
+    question: "What are the key criteria for a successful funding application?",
     answer:
-      "You can apply online through our [Admission Portal] or submit a physical application form at the college's admission office. Visit the [Admissions Process page] for step-by-step guidance.",
+      "Applications are evaluated based on scientific rigor, feasibility, and potential for long-term impact. Applicants must demonstrate a clear methodology and explain how their findings will contribute to existing conservation frameworks.",
   },
   {
     id: 5,
-    question: "What are the campus facilities available?",
+    question:
+      "Can international researchers apply for local conservation grants?",
     answer:
-      "Our campus includes a library, laboratories, sports facilities, hostels, a cafeteria, and student recreation areas. Explore the [Campus Facilities page] for a virtual tour.",
+      "Yes, we encourage global collaboration. However, international applicants must demonstrate a partnership with a local institution or show how their research directly benefits the specific ecosystems we currently prioritize.",
   },
 ];
 

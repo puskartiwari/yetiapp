@@ -86,17 +86,17 @@ import Image from "next/image";
 const featuresData = [
   {
     id: 1,
-    title: "Computer lab and Internet",
+    title: "Conservation Research Fund",
     content:
-      "The college runs professional business programs based on efficient learning modules. Most BA-HM (BHM), MBA, and BCA curricula require computer support. To meet this need, the college has ensured the availability of a sophisticated computer lab equipped with branded computers, all connected to the Internet through a dedicated 100/100 Mbps lease line serving the needs of 400 students at a time.",
-    imgSrc: "Smart-Lab-of-the-Future-Powered-by-IoT-min.jpg",
+      "Nepal empowers conservation scientists, students, and practitioners to conserve Nepal’s rich natural heritage with evidence‑based research, inclusive dialogue, and action‑oriented funding.",
+    imgSrc: "pari32.jpg",
   },
   {
     id: 2,
-    title: "Classrooms and surroundings",
+    title: "Research Mentorship",
     content:
-      "The classrooms of Yeti College have an in-built multi-media facility, audio-visual, and computer access. CCTV surveillance covers all the classrooms and most college areas ensuring a safe and secure learning environment.",
-    imgSrc: "classroom.jpeg",
+      "Nepal to grow your research skills, access mentorship, support action research, and shape the future of conservation in Nepal through science and collaboration.",
+    imgSrc: "pari33.jpg",
   },
 ];
 

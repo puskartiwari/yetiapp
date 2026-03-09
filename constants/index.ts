@@ -143,13 +143,13 @@ export const NAV_LINKS = [
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  "/person-1.png",
-  "/person-2.png",
-  "/person-3.png",
-  "/person-4.png",
+  "/pari3.jpg",
+  "/pari4.jpg",
+  "/pari5.jpg",
+  "/pari6.jpg",
 ];
 
-export const SPU_URL = ["/spu.png", "/spu2.png", "/spu3.png"];
+export const SPU_URL = ["/pari8.jpg", "/pari9.jpg", "/pari10.jpg"];
 
 // FEATURES SECTION
 export const FEATURES = [
@@ -219,25 +219,29 @@ export const FOOTER_LINKS = [
   {
     title: "Outstanding Courses",
     links: [
-      "MBA - Master in Business Administration",
-      "BHM - Bachelor in Hotel Management",
-      "BABM - Bachelor in Airlines Business Management",
-      "BAMM - Bachelor in MICE (Event) Management",
-      "BTTM - Bachelor in Tourism & MICE Management",
-      "BCA - Bachelor in Computer Application",
+      "Center For Analytical Sciences",
+      "Center For Conservation Biologoy",
+      "Center For Water And Atmospheric Research",
+      "National Young Academy of Nepal ",
+      "Organisation of Women Scientist in Nepal",
+      "Society for Conservation Biology",
     ],
   },
   {
     title: "Our Affiliation ",
-    links: ["Tribhuwan University", "Sripatum University"],
+    links: [
+      "Tribhuwan University",
+      "Pokhara University",
+      "Kathmandu University",
+    ],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Admin Office", value: "+977-14792063" },
-    { label: "Email Office", value: "nfo@yeticollege.edu.np" },
+    { label: "Admin Office", value: "+977-1454554" },
+    { label: "Email Office", value: "prabesh@gmail.com" },
   ],
 };
 
@@ -256,11 +260,11 @@ export const SOCIALS = {
   links: [
     {
       icon: "/facebook.svg",
-      url: "https://www.facebook.com/YETICollege",
+      url: "https://www.facebook.com/praves57",
     },
     {
       icon: "/instagram.svg",
-      url: "https://www.instagram.com/yetiintlcollege/",
+      url: "https://www.facebook.com/praves57",
     },
     // {
     //   icon: "/twitter.svg",
@@ -268,7 +272,7 @@ export const SOCIALS = {
     // },
     {
       icon: "/youtube.svg",
-      url: "https://www.youtube.com/@YETIInternationalCollege",
+      url: "https://www.youtube.com/watch?v=ptQ2VDfCcUA",
     },
     // {
     //   icon: "/wordpress.svg",

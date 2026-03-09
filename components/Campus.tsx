@@ -31,7 +31,7 @@ import { SPU_URL } from "@/constants";
 export default function Campus() {
   return (
     <section className="w-4/5 mx-auto text-center py-16">
-      <h1 className="text-3xl font-bold">Our Global Courses</h1>
+      <h1 className="text-3xl font-bold">Featured Projects</h1>
       <p className="text-gray-600 mt-3">Discover our universities worldwide.</p>
 
       <div className="mt-10 grid md:grid-cols-3 gap-6">
@@ -46,7 +46,7 @@ export default function Campus() {
             />
             <div className="absolute inset-0 bg-cyan-500/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
               <h3 className="text-white text-2xl font-semibold">
-                Courses {i + 1}
+                Featured {i + 1}
               </h3>
             </div>
           </div>

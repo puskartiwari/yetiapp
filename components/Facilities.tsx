@@ -47,7 +47,7 @@ import Image from "next/image";
 export default function Facilities() {
   return (
     <section className="w-4/5 mx-auto text-center py-16">
-      <h1 className="text-3xl font-bold">Our Activities</h1>
+      <h1 className="text-3xl font-bold">Recent News & Activities</h1>
       <p className="text-gray-600 mt-3">
         State of the art facilities for students.
       </p>
@@ -56,40 +56,42 @@ export default function Facilities() {
         {/* Library */}
         <div>
           <Image
-            src="orent1.jpg"
+            src="pari24.jpg"
             alt="World Class Library"
             width={400}
             height={300}
             className="rounded-lg shadow hover:shadow-xl transition"
           />
-          <h3 className="text-xl font-semibold mt-4">Orientation</h3>
-          <p className="text-gray-600 mt-2">Batch 2020 Orientation.</p>
+          <h3 className="text-xl font-semibold mt-4">Campaign</h3>
+          <p className="text-gray-600 mt-2">Learn more about campaign</p>
         </div>
 
         {/* Playground */}
         <div>
           <Image
-            src="orent2.jpg"
+            src="pari23.jpg"
             alt="Play Ground"
             width={400}
             height={300}
             className="rounded-lg shadow hover:shadow-xl transition"
           />
-          <h3 className="text-xl font-semibold mt-4">Orientation</h3>
-          <p className="text-gray-600 mt-2">Batch 2021 Orientation.</p>
+          <h3 className="text-xl font-semibold mt-4">Campaign</h3>
+          <p className="text-gray-600 mt-2">Learn more about campaign</p>
         </div>
 
         {/* Cafeteria */}
         <div>
           <Image
-            src="orent3.jpg"
+            src="pari24.jpg"
             alt="Tasty and Healthy Food"
             width={400}
             height={300}
             className="rounded-lg shadow hover:shadow-xl transition"
           />
-          <h3 className="text-xl font-semibold mt-4">Orientation</h3>
-          <p className="text-gray-600 mt-2">Batch 2021 Orientation.</p>
+          <h3 className="text-xl font-semibold mt-4">Campaign</h3>
+          <p className="text-gray-600 mt-2">
+            Seminar on Mechano-Chemical Sensing
+          </p>
         </div>
       </div>
 
@@ -97,40 +99,40 @@ export default function Facilities() {
         {/* Library */}
         <div>
           <Image
-            src="holi1.jpg"
+            src="pari25.jpg"
             alt="World Class Library"
             width={400}
             height={300}
             className="rounded-lg shadow hover:shadow-xl transition"
           />
-          <h3 className="text-xl font-semibold mt-4">Happy Holi</h3>
-          <p className="text-gray-600 mt-2">Holi Celebration</p>
+          <h3 className="text-xl font-semibold mt-4">Seminar</h3>
+          <p className="text-gray-600 mt-2">Conservation Dialogue</p>
         </div>
 
         {/* Playground */}
         <div>
           <Image
-            src="holi2.jpg"
+            src="pari26.jpg"
             alt="Play Ground"
             width={400}
             height={300}
             className="rounded-lg shadow hover:shadow-xl transition"
           />
-          <h3 className="text-xl font-semibold mt-4">Happy Holi</h3>
-          <p className="text-gray-600 mt-2">Holi Celebration.</p>
+          <h3 className="text-xl font-semibold mt-4">Conservation Reseach</h3>
+          <p className="text-gray-600 mt-2">Conservation Reseach Fund</p>
         </div>
 
         {/* Cafeteria */}
         <div>
           <Image
-            src="holi3.jpg"
+            src="pari27.jpg"
             alt="Tasty and Healthy Food"
             width={400}
             height={300}
             className="rounded-lg shadow hover:shadow-xl transition"
           />
-          <h3 className="text-xl font-semibold mt-4">Happy Holi </h3>
-          <p className="text-gray-600 mt-2">Holi celebration .</p>
+          <h3 className="text-xl font-semibold mt-4">Research Mentorship </h3>
+          <p className="text-gray-600 mt-2">Research Mentorship program</p>
         </div>
       </div>
     </section>

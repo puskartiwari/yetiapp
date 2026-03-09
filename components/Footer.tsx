@@ -156,7 +156,12 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="/logo.png" alt="logo" width={74} height={29} />
+            <Image
+              src="/logotransparent.jpeg"
+              alt="logo"
+              width={74}
+              height={29}
+            />
           </Link>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
@@ -226,8 +231,8 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2025 © Yeti Int'l College | All Rights Reserved, Developed By: Chandan
-          Kushwaha
+          Copyright © 2026 Society for Conservation Biology - | All Rights
+          Reserved, Powered by: Prabesh Dhungana
         </p>
       </div>
     </footer>

@@ -11,8 +11,8 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: "Yeti",
-  description: "Yeti UI/UX App for Camping",
+  title: "Pari App",
+  description: "Pari UI/UX App for Camping",
 };
 
 export default function RootLayout({

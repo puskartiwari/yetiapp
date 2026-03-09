@@ -26,7 +26,7 @@ export default function Home() {
       {/* <CTA /> */}
       <Facilities />
 
-      <Features />
+      {/* <Features /> */}
       {/* <Guide /> */}
 
       <About />

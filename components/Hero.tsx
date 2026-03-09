@@ -115,32 +115,31 @@ const heroSlides = [
   {
     title: (
       <>
-        Empowering <span className="text-blue-500 ">Future Unleashing</span>{" "}
-        Innovation
+        Center <span className="text-blue-500 ">For</span> Analytical Science
       </>
     ),
     description:
-      "We are committed to shaping future leaders through quality education and hands-on learning. Our programs in IT, Business, Hospitality, and Management foster creativity, critical thinking, and innovation, empowering students to thrive in a rapidly evolving world.",
+      "Empowering the next generation of innovators through data-driven insights and rigorous academic excellence. We bridge the gap between theoretical research and real-world application to shape the leaders of tomorrow.",
   },
   {
     title: (
       <>
-        Your <span className="text-blue-500">Journey</span> to{" "}
-        <span className="text-blue-500">Success</span> Begins Here
+        Seven <span className="text-blue-500">Years </span> in{" "}
+        <span className="text-blue-500">Science</span> Begins Here
       </>
     ),
     description:
-      "Discover industry-relevant programs in IT, Business, Hospitality, and Management designed to equip you with the knowledge and skills for a successful career.",
+      "Embark on a transformative journey where curiosity meets discovery. Our comprehensive seven-year curriculum provides a seamless pathway from foundational learning to advanced mastery in the scientific field.",
   },
   {
     title: (
       <>
-        <span className="text-blue-500">Education</span> That Prepares You for
-        the Real <span className="text-blue-500">World</span>
+        <span className="text-blue-500">Achievements </span> And the Way{" "}
+        <span className="text-blue-500">Forward</span>
       </>
     ),
     description:
-      "From practical training to global exposure, our diverse courses like ABM, BCA, BHM, BBA, and MBA help you become career-ready and future-focused.",
+      "Celebrating a legacy of excellence while pivoting toward a tech-driven future. We turn milestones into stepping stones, ensuring our students are prepared for the evolving challenges of the global workforce.",
   },
 ];
 
@@ -182,7 +181,7 @@ const Hero = () => {
           />
 
           <a
-            href="https://www.youtube.com/watch?v=KKVNhm7afvo"
+            href="https://www.youtube.com/watch?v=ptQ2VDfCcUA"
             className="flex items-center justify-center gap-2 rounded-xl border border-gray-200 px-6 py-3 hover:bg-white hover:text-black transition">
             <Image src="/play.svg" alt="play" width={20} height={20} />
             <span>Watch Video</span>
