@@ -11,25 +11,25 @@ interface WhyUsItem {
 
 const whyUsData: WhyUsItem[] = [
   {
-    title: "Choose Excellence",
+    title: "Food Safety and Regulation",
     description:
-      "Our expert faculty, modern facilities, and industry-aligned courses ensure you receive top-tier education that leads to real success.",
+      "Over 60% of households in Nepal are using water contaminated with sewage (indicated by the presence of E. coli and coliform bacteria).",
     image: "/whyus1.png",
   },
   {
-    title: "Your Future Starts Here",
+    title: "Contamination Levels:",
     description:
-      "With diverse programs like ABM, BHM, BTTM, BCA, and MBA, we help you turn your passion into a rewarding profession.",
+      "While 98.2% of the population uses an improved water source, the majority of these sources fail safety tests due to cross-contamination with rainwater and aging sewage systems",
     image: "/whyus3.png",
   },
   {
-    title: "Start Strong with Us",
+    title: "Improved Source",
     description:
-      "Begin your journey with programs that focus on skills, innovation, and global opportunities from day one.",
+      "Studies by NAST (Nepal Academy of Science and Technology) show that even jar water and tap water in the capital frequently exceed national standards for fecal coliform. Biofilm formation in old pipelines makes disinfection particularly difficult.",
     image: "/whyus2.png",
   },
   {
-    title: "The Right Choice",
+    title: "Kathmandu Valley Specifics:",
     description:
       "We prepare you for today’s competitive world with a perfect blend of theory, practice, and personality development.",
     image: "/whyus4.png",
@@ -106,10 +106,13 @@ const WhyUs = () => {
       style={{ backgroundImage: "url('/assets/images/ui/bg.png')" }}>
       {/* Section Title */}
       <div className="container mx-auto text-center mb-16 px-4">
-        <h2 className="text-4xl font-bold mb-4">Why Choose Us</h2>
+        <h2 className="text-4xl font-bold mb-4">
+          Water Quality and Safety Status (2026)
+        </h2>
         <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-          Because we combine quality education, practical training, and a
-          supportive environment to shape confident, career-ready graduates.
+          The Department of Food Technology and Quality Control (DFTQC) is the
+          primary regulatory body. In 2026, their focus has shifted toward
+          stricter enforcement and digital monitoring
         </p>
       </div>
 

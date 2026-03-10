@@ -6,37 +6,37 @@ import Image from "next/image";
 const courses = [
   {
     id: 1,
-    title: "MBA - Master in Business Administration",
+    title: "Center For Analytical Science",
     img: "/mbabg.png",
     desc: "This program of studies consists of two (2) compul...",
   },
   {
     id: 2,
-    title: "BHM - Bachelor in Hotel Management",
+    title: "Standardization of Safety Protocols",
     img: "/bhmbg.png",
     desc: "Service-minded students want to learn creatively w...",
   },
   {
     id: 3,
-    title: "BABM - Bachelor in Airlines Business Management",
+    title: "Innovation in Environmental Monitoring",
     img: "/babm.png",
     desc: "Landing at SPU Airline, an airline where students ...",
   },
   {
     id: 4,
-    title: "BAMM - Bachelor in MICE (Event) Management",
+    title: "Professional Mentorship & Capacity Building",
     img: "/bamm.png",
     desc: "The BA in MICE (Event) Management program at Sripa...",
   },
   {
     id: 5,
-    title: "BTTM - Bachelor in Tourism & MICE Management",
+    title: "Evidence-Based Policy Advocacy",
     img: "/bttm.png",
     desc: "The BA in MICE (Event) Management program at Sripa...",
   },
   {
     id: 6,
-    title: "BCA - Bachelor in Computer Application",
+    title: "Center for Analytical Science",
     img: "/bcabg.png",
     desc: "YETI International College(former Bhadra Ghale Mul...",
   },

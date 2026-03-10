@@ -16,35 +16,17 @@ interface MessageData {
 const messages: MessageData[] = [
   {
     id: 1,
-    title: "MESSAGE FROM",
-    highlight: "CEO ",
-    studenthighlight: " Dear Students,",
+    title: "Quality Food ",
+    highlight: "Water  ",
+    studenthighlight: " Safety,",
     message: `
      
-      It is my immense pleasure to welcome you as the best of the best students to Yeti College,
-      which is affiliated to the Sripatum University of Thailand; approved and recognized by the
-      Ministry of Education, Science and Technology (MOEST), Nepal, where the knowledge and
-      skills are simultaneously imparted to make the students capable of standing on their own
-      feet in this competitive world of professionals. 
-
-      The educational environment in YETI is unique in comparison to other colleges in Nepal
-      in terms of its teaching-learning which has made it possible to produce many achievers.
-      Earning while learning has been its strongest educational process that helps its students
-      to become financially self-dependent towards their profession at the end of courses.
-      
-      Our dedicated, passionate, professionally educated and trained faculty members leave no
-      stone unturned to educate and train our students to the best of their knowledge to achieve
-      their educational and professional objectives.
-
-      I, on behalf of YETI, warmly welcome the parents to visit our college and meet our trained
-      counselors for facilitating you to make the appropriate decision for the bright future of
-      your children.
-      
-      Wishing you all the best for a bright and successful career ahead.
+     Research and monitoring from early 2026 reveal that food and water safety remains a critical public health challenge in Nepal, driven by rapid urbanization, climate change, and infrastructure gaps. While nearly all of the population has access to "improved" water sources, the actual quality of that water is often compromised.
     `,
-    author: "Sanjay Kumar Jha",
-    designation: "Founder, CEO, Yeti Int'l College",
-    image: "/principal.jpg", // replace with actual path or keep empty
+    author: "Prabesh Dhungana",
+    designation:
+      "International students from USA get research experience in Nepal",
+    image: "/pari32.jpg", // replace with actual path or keep empty
   },
 ];
 

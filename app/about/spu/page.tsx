@@ -4,10 +4,10 @@ import ContactSection from "@/components/contactUs";
 import Image from "next/image";
 
 const spuImages = [
-  { id: 1, src: "/spu.png", alt: "SPU Image 1" },
-  { id: 2, src: "/spu2.png", alt: "SPU Image 2" },
-  { id: 3, src: "/spu3.png", alt: "SPU Image 3" },
-  { id: 5, src: "/spu5.png", alt: "SPU Image 5" },
+  { id: 1, src: "/pari23.jpg", alt: "SPU Image 1" },
+  { id: 2, src: "/pari24.jpg", alt: "SPU Image 2" },
+  { id: 3, src: "/pari25.jpg", alt: "SPU Image 3" },
+  { id: 5, src: "/pari26.jpg", alt: "SPU Image 5" },
 ];
 
 export default function Spu() {

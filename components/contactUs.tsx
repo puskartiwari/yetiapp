@@ -16,17 +16,19 @@ export default function ContactSection() {
     {
       title: "Our Location",
       icon: <MapPin size={18} />,
-      content: ["Buddhanagar-10, New Baneshwor, Kathmandu"],
+      content: [
+        "Central Department Of Hydrology & Meteorology, Tribhuvan University, Kathmandu",
+      ],
     },
     {
       title: "Phone Number",
       icon: <Phone size={18} />,
-      content: ["+977-14792063", "9851314471", "9803323042"],
+      content: ["+977-4456566", "982345678", "9802345678"],
     },
     {
       title: "Email",
       icon: <Mail size={18} />,
-      content: ["info@yeticollege.edu.np"],
+      content: ["info@prabesh.edu.np"],
     },
   ];
 

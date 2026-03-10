@@ -13,26 +13,26 @@ export const NAV_LINKS = [
     key: "about",
     label: "About",
     children: [
-      {
-        href: "/about/us",
-        key: "aboutus",
-        label: "About Us",
-      },
+      // {
+      //   href: "/about/us",
+      //   key: "aboutus",
+      //   label: "About Us",
+      // },
       {
         href: "/about/spu",
         key: "aboutspu",
-        label: "About SPU",
+        label: "About Us",
       },
       {
         href: "/about/CEO",
         key: "ceo",
-        label: "Message From CEO",
+        label: "Message From Team",
       },
-      {
-        href: "/about/principal",
-        key: "principal",
-        label: "Message From Principal",
-      },
+      // {
+      //   href: "/about/principal",
+      //   key: "principal",
+      //   label: "Message From Principal",
+      // },
       {
         href: "/about/whyus",
         key: "whyus",
@@ -85,32 +85,32 @@ export const NAV_LINKS = [
       {
         href: "/courses/mba",
         key: "mba",
-        label: "MBA - Master in Business Administration",
+        label: "Center For Analytical Sciences",
       },
       {
         href: "/courses/bhm",
         key: "bhm",
-        label: "BHM - Bachelor in Hotel Management",
+        label: "Center For Conservation Biology",
       },
       {
         href: "/courses/babm",
         key: "babm",
-        label: "BABM - Bachelor in Airlines Business Management",
+        label: "Center For Water And Atmospheric Research",
       },
       {
         href: "/courses/bamm",
         key: "bamm",
-        label: "BAMM - Bachelor in MICE (Event) Management",
+        label: "National Young Academy of Nepal",
       },
       {
         href: "/courses/bttm",
         key: "bttm",
-        label: "BTTM - Bachelor in Tourism & MICE Management",
+        label: "Organisation of Women Scientist in Nepal",
       },
       {
         href: "/courses/bca",
         key: "bca",
-        label: "BCA - Bachelor in Computer Application",
+        label: "Society for Conservation Biology",
       },
     ],
   },

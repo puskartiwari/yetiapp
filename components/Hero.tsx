@@ -143,11 +143,7 @@ const heroSlides = [
   },
 ];
 
-const heroImages = [
-  "/hero-image3.png",
-  "/hero-image2.png",
-  "/hero-imagered.png",
-];
+const heroImages = ["/pari42.jpg", "/pari43.jpg", "/pari44.jpg"];
 
 const Hero = () => {
   const [slideIndex, setSlideIndex] = useState(0);

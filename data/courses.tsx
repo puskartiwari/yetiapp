@@ -1,26 +1,23 @@
 // data/courses.ts
 export const coursesData: Record<string, any> = {
   mba: {
-    title: "MBA - Master in Business Administration",
+    title: "Center For Analytical Science ",
     bannerImage: "/assets/images/courses/banners/mba_banner.png",
     bgImage: "/assets/images/courses/backgrounds/mba_bg.png",
     categories: [{ label: "Graduate", icon: "fa-solid fa-check" }],
     duration: { label: "2 Years", icon: "fa-solid fa-graduation-cap" },
     intakes: ["March", "July", "November"],
     objectives: [
-      "Apply quantitative and qualitative reasoning to business situations.",
-      "Use technology in research for professional presentations.",
-      "Apply core business principles in decision-making.",
-      "Produce skilled managers, entrepreneurs, and business experts.",
+      "High-level academic research, technical precision, and practical application to solve real-world problems—especially those relevant to the current environmental and industrial landscape of Nepal.",
     ],
     description:
-      "This program of studies consists of two (2) compulsory basic modules with credit 6 hours...",
+      "To provide high-precision testing services for food, water, and soil. This involves utilizing advanced chromatography and spectroscopy to detect contaminants, heavy metals, and pathogens that standard labs might miss....",
     syllabusImage: "/assets/images/courses/syllabus_images/mba_syllabus.png",
     applyLink: "?page=get-started",
   },
 
   bhm: {
-    title: "BHM - Bachelor in Hotel Management",
+    title: "Standardization of Safety Protocols",
     bannerImage: "/assets/images/courses/banners/bhm_banner.png",
     bgImage: "/assets/images/courses/backgrounds/bhm_bg.png",
     categories: [{ label: "Undergraduate", icon: "fa-solid fa-check" }],
@@ -38,7 +35,7 @@ export const coursesData: Record<string, any> = {
   },
 
   babm: {
-    title: "BABM - Bachelor in Airlines Business Management",
+    title: "Innovation in Environmental Monitoring",
     bannerImage: "/assets/images/courses/banners/babm_banner.png",
     bgImage: "/assets/images/courses/backgrounds/babm_bg.png",
     categories: [{ label: "Undergraduate", icon: "fa-solid fa-check" }],
@@ -56,7 +53,7 @@ export const coursesData: Record<string, any> = {
   },
 
   bamm: {
-    title: "BAMM - Bachelor in MICE (Event) Management",
+    title: "Professional Mentorship & Capacity Building",
     bannerImage: "/assets/images/courses/banners/bamm_banner.png",
     bgImage: "/assets/images/courses/backgrounds/bamm_bg.png",
     categories: [{ label: "Undergraduate", icon: "fa-solid fa-check" }],
@@ -68,13 +65,13 @@ export const coursesData: Record<string, any> = {
       "Provide expertise in international event management.",
     ],
     description:
-      "The BAMM program blends management and event industry expertise, preparing graduates to manage events of all scales...",
+      "The  Program blends management and event industry expertise, preparing graduates to manage events of all scales...",
     syllabusImage: "/assets/images/courses/syllabus_images/bamm_syllabus.png",
     applyLink: "?page=get-started",
   },
 
   bttm: {
-    title: "BTTM - Bachelor in Tourism & MICE Management",
+    title: "Evidence-Based Policy Advocacy",
     bannerImage: "/assets/images/courses/banners/bttm_banner.png",
     bgImage: "/assets/images/courses/backgrounds/bttm_bg.png",
     categories: [{ label: "Undergraduate", icon: "fa-solid fa-check" }],
@@ -86,13 +83,13 @@ export const coursesData: Record<string, any> = {
       "Prepare graduates for global tourism management roles.",
     ],
     description:
-      "The BTTM program emphasizes tourism, hospitality, and event management practices with hands-on training...",
+      "The Program emphasizes tourism, hospitality, and event management practices with hands-on training...",
     syllabusImage: "/assets/images/courses/syllabus_images/bttm_syllabus.png",
     applyLink: "?page=get-started",
   },
 
   bca: {
-    title: "BCA - Bachelor in Computer Application",
+    title: "Center for Analytical Science,",
     bannerImage: "/assets/images/courses/banners/bca_banner.png",
     bgImage: "/assets/images/courses/backgrounds/bca_bg.png",
     categories: [{ label: "Undergraduate", icon: "fa-solid fa-check" }],
@@ -104,7 +101,7 @@ export const coursesData: Record<string, any> = {
       "Prepare students for IT, software, and tech entrepreneurship.",
     ],
     description:
-      "The BCA program focuses on programming, software development, and practical knowledge of IT systems...",
+      "The Program focuses on programming, software development, and practical knowledge of IT systems...",
     syllabusImage: "/assets/images/courses/syllabus_images/bca_syllabus.png",
     applyLink: "?page=get-started",
   },
