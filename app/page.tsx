@@ -16,6 +16,12 @@ import Hero from "@/components/Hero";
 import StatsSection from "@/components/StartsSection";
 import Testimonials from "@/components/Testimonial";
 
+// import { stations } from "@/constants/stations";
+import StationDetails from "@/components/StationDetails";
+import dynamic from "next/dynamic";
+import { stations } from "./constant/stations";
+import MapStation from "@/components/MapStation";
+
 export default function Home() {
   return (
     <>
@@ -30,6 +36,8 @@ export default function Home() {
       {/* <Guide /> */}
 
       <About />
+
+      <MapStation />
       {/* <BatchCards />
       <About />
       <ClassSection />

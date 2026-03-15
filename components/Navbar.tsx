@@ -249,19 +249,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-full z-[9999] transition-all duration-300 ${
         scrolled ? " bg-white py-4 shadow-md" : " py-6  bg-slate-200"
       }`}>
       {/* ✅ Container for full-width flex layout */}
       <div className="flex justify-between items-center max-w-[1440px] mx-auto px-6">
         {/* Logo */}
         <Link href="/">
-          <Image
-            src="/logotransparent.jpeg"
-            alt="logo"
-            width={74}
-            height={29}
-          />
+          <Image src="/NccLogo.png" alt="logo" width={80} height={44} />
         </Link>
 
         {/* Desktop Nav */}
@@ -349,7 +344,7 @@ const Navbar = () => {
         {/* Right Section */}
         <div className="hidden lg:flex gap-8 items-center">
           <Link href="/">
-            <Image src="/turight.png" alt="logo" width={74} height={55} />
+            <Image src="/NccLogo.png" alt="logo" width={74} height={55} />
           </Link>
         </div>
 

@@ -115,11 +115,11 @@ const heroSlides = [
   {
     title: (
       <>
-        Center <span className="text-blue-500 ">For</span> Analytical Science
+        National Cryosphere <span className="text-blue-500 ">and</span> Climate
+        Lab (NCCL)
       </>
     ),
-    description:
-      "Empowering the next generation of innovators through data-driven insights and rigorous academic excellence. We bridge the gap between theoretical research and real-world application to shape the leaders of tomorrow.",
+    description: "Research on Climate,Glaciers & Water Resources in Himalays.",
   },
   {
     title: (
@@ -171,7 +171,7 @@ const Hero = () => {
           {/* <Button type="button" title="Get Started" variant="btn_red" /> */}
           <Button
             type="button"
-            title="Get Started"
+            title="Combine"
             variant="btn_red"
             className="px-6 py-3"
           />

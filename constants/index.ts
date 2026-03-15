@@ -80,7 +80,7 @@ export const NAV_LINKS = [
 
   {
     key: "courses",
-    label: "Courses",
+    label: "Resources",
     children: [
       {
         href: "/courses/mba",
